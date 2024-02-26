@@ -5,4 +5,4 @@ Documentation + Code of go-language.
 
 1 -> new () and make()
 
-# No Inheritence in Golang
+# No Inheritence in Golang , No super keyword.....
