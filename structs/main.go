@@ -8,6 +8,9 @@ type User struct {
 	Status bool
 	Age int
 }
+func (u User) getStauts() {
+	fmt.Println("Is user Active : ", u.Status);
+}
 
 func main() {
 	fmt.Println("Structs");
@@ -17,4 +20,6 @@ func main() {
 	fmt.Printf("User details are %+v: \n", rahul);
 
 	fmt.Printf("Name is %v and Email is %v \n", rahul.Name, rahul.Email);
+
+	rahul.getStauts();
 }
